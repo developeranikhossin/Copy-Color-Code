@@ -17,7 +17,7 @@ function main(){
 
     copyBtn.addEventListener("click", function(){
         navigator.clipboard.writeText(output.value);
-        alert('thanks color code is copy')
+        alert('thanks')
     });
 
 }
