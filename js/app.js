@@ -17,7 +17,7 @@ function main(){
 
     copyBtn.addEventListener("click", function(){
         navigator.clipboard.writeText(output.value);
-        alert('thanks')
+        alert('thanks, code copied')
     });
 
 }
